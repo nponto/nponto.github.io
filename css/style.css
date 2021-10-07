@@ -1,0 +1,29 @@
+.center {
+    text-align: center;
+}
+
+body {
+    font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+}
+
+.circle-image {
+    border-radius: 50%;
+}
+
+.round-image {
+    border-radius: 10%;
+}
+
+p {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+a {
+    color: black;
+}
+a:hover {
+    text-decoration: solid;
+    
+}

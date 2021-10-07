@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Noah Ponto's Project Page</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color: moccasin;">
+    <div class="off-canvas-wrapper">
+    
+        <div class="off-canvas-content" data-transition="overlap" data-off-canvas-content>
+            <div class="grid-container">
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x">
+                        <h1 class="cell small-9 medium-auto" style="color: black; float: left; font-size: 2rem;">Welcome to Noah Ponto's Projects Page</h1>
+                            <button class="show-for-small-only cell small-2" data-open="offCanvas" style="background-color: rgb(85, 52, 0); margin-top: 20px">|||</button>
+                    </div>
+                </div>
+                <div class="grid-y">
+                    <div class="grid-x"></div>
+                        <ul class="menu hide-for-small-only">
+                            <li><a href="index.html" target="_self">Home Page</a></li>
+                            <li><a href="resume.html" target="_self">Resume Page</a></li>
+                            <li><a href="fun.html" target="_self">Fun Page</a></li>
+                            <li><a href="https://www.stthomas.edu/" target="_blank" target="_blank">St. Thomas Homepage</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+    
+                <div class="off-canvas position-bottom show-for-small-only" id="offCanvas" data-off-canvas>
+                    <h3 class="text-center"> Other Pages
+                        <button style="float: right;" type="button" data-close>
+                            <span>&times;</span>
+                        </button>
+                    </h3>
+            
+                    <ul class="menu vertical text-center" id="navmenu">
+                        <li><a href="index.html" target="_self">Home Page</a></li>
+                        <li><a href="resume.html" target="_self">Resume Page</a></li>
+                        <li><a href="fun.html" target="_self">Fun Page</a></li>
+                        <li><a href="https://www.stthomas.edu/" target="_blank" target="_blank">St. Thomas Homepage</a></li>
+                    </ul>
+                </div>
+
+                
+                
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell medium-auto small-auto text-center" style="font-size: 1.5rem;">
+                            <img src="imgs/fileexplorersmaller.jpg" class="round-image"/>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x align-center">
+                        <div class="cell medium-8 small-auto text-center">
+                            <h2 style="text-align: center; font-size: 1.5rem">Project 1: File Explorer</h2>
+                            <h2 style="text-align: center; font-size: 1rem;">One of my favorite projects I have done during my time at St. Thomas was a File Explorer in my Operating Systems course.
+                                We were given a graphics library to use in order to fully implement a working file explorer on our linux systems. In addition to showing file sizes, types, and names, it also
+                                allowed for the user to click a button an enable recursive mode. This way the user could see multiple subdirectories without needing to click so many times. It was a rather difficult
+                                project but it is very cool to say you made your own file explorer.<br/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell medium-auto small-auto text-center" style="font-size: 1.5rem;">
+                            <img src="imgs/electoralcollege.jpg" class="round-image"/>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x align-center">
+                        <div class="cell medium-8 small-auto text-center">
+                            <h2 style="text-align: center; font-size: 1.5rem">Project 2: Electoral College Simulator</h2>
+                            <h2 style="text-align: center; font-size: 1rem;">In Object Oriented Design and Programming, one of my favorite projects was the Electoral College
+                                Simulator. Its purpose was pretty self-explanatory but it essentially took a list of Red, Blue, and Undecided States, and out-put how many ways you could end up
+                                with a tie of electoral college votes. It was a difficult project but it was cool to implement because it used fork/join and allowed for a direct performance comparison
+                                to the method without fork/join. <br/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell medium-auto small-auto text-center" style="font-size: 1.5rem;">
+                            <img src="imgs/tenzismaller.jpeg" class="round-image"/>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x align-center">
+                        <div class="cell medium-8 small-auto text-center">
+                            <h2 style="text-align: center; font-size: 1.5rem">Project 3: Tenzi Dice Game</h2>
+                            <h2 style="text-align: center; font-size: 1rem"></h1>The last project on this page is another from Object Oriented Design and Programming.
+                                Tenzi Dice Game was one of the very first 'games' I ever developed and it is also one of my favorite. The purpose of the game was to see how long
+                                it took for the player to have all dice land on the same number. For instance, if the user had 3 dice then they would keep rolling until all dice had the same number, but could 
+                                select how many of the 3 dice to roll each turn. The program kept track of the elapsed time and kept a leaderboard of the fastest recent times. <br/><br>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>
