@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Noah Ponto's Project Page</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color: moccasin;">
+    <div class="off-canvas-wrapper">
+    
+        <div class="off-canvas-content" data-transition="overlap" data-off-canvas-content>
+            <div class="grid-container">
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x">
+                        <h1 class="cell small-9 medium-auto" style="color: black; float: left; font-size: 2rem;">Welcome to Noah Ponto's Projects Page</h1>
+                            <button class="show-for-small-only cell small-2" data-open="offCanvas" style="background-color: rgb(85, 52, 0); margin-top: 20px">|||</button>
+                    </div>
+                </div>
+                <div class="grid-y">
+                    <div class="grid-x"></div>
+                        <ul class="menu hide-for-small-only">
+                            <li><a href="index.html" target="_self">Home Page</a></li>
+                            <li><a href="projects.html" target="_self">Project Page 1</a></li>
+                            <li><a href="projects3.html" target="_self">Project Page 3</a></li>
+
+
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+    
+                <div class="off-canvas position-bottom show-for-small-only" id="offCanvas" data-off-canvas>
+                    <h3 class="text-center"> Other Pages
+                        <button style="float: right;" type="button" data-close>
+                            <span>&times;</span>
+                        </button>
+                    </h3>
+            
+                    <ul class="menu vertical text-center" id="navmenu">
+                        <li><a href="index.html" target="_self">Home Page</a></li>
+                        <li><a href="projects.html" target="_self">Project Page 1</a></li>
+                        <li><a href="projects3.html" target="_self">Project Page 3</a></li>
+
+
+                    </ul>
+                </div>
+
+
+                
+        
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x align-center">
+                        <div class="cell medium-8 small-auto text-center">
+                            <h2 style="text-align: center; font-size: 1.5rem">St. Paul Crime Web Application</h2>
+                            <a href="https://github.com/nponto/webapp" style="color: blue" target="_blank">Github Page</a>
+                            <h2 style="text-align: center; font-size: 1rem;">This project is a working single page application to help illustrate crimes in St. Paul, Minnesota.
+                                It implements 3 different APIs: Leaflet, Nominatim, and our own custom API. 
+                                Leaflet: used to render interactive maps that have the ability to have markers and other data imposed on the map. 
+                                Nominatim: allows for quick searching of a location by its name or to grab a location's address based on its latitude/longitude 
+                                Our API: custom made API that allows easy retrieval of St. Paul crime incidents based on police code, location, time, and a few other criteria.
+                                This project also utilizes Vue.js for the implementation of the map<br/><br/>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell medium-auto small-auto text-center">
+                            <img src="imgs/webapp1.PNG"  style="width: 700px; height: 500px">
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x align-center">
+                        <div class="cell medium-8 small-auto text-center">
+                            <h2 style="text-align: center; font-size: 1rem;">Default Page View of St. Paul Map <br/><br/>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell medium-auto small-auto text-center">
+                            <img src="imgs/webapp2.PNG"  style="width: 700px; height: 500px">
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x align-center">
+                        <div class="cell medium-8 small-auto text-center">
+                            <h2 style="text-align: center; font-size: 1rem;">Default View of Crimes Table. Crimes are color-coded
+                                by type<br/><br/>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell medium-auto small-auto text-center">
+                            <img src="imgs/webapp3.PNG"  style="width: 700px; height: 500px">
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x align-center">
+                        <div class="cell medium-8 small-auto text-center">
+                            <h2 style="text-align: center; font-size: 1rem;">Searching for University of St. Thomas will center the map on St. Thomas. The Location information
+                                box will update in real-time with GPS information of the center of the map.
+                                <br/><br/>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x">
+                        <div class="cell medium-auto small-auto text-center">
+                            <img src="imgs/webapp4.PNG"  style="width: 700px; height: 500px">
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x align-center">
+                        <div class="cell medium-8 small-auto text-center">
+                            <h2 style="text-align: center; font-size: 1rem;">Selecting filtering options to only include Robbery, Burglary, and Theft in
+                                the Summit-University area will populate the table with only those crimes<br/><br/>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-y">
+                    <div class="grid-x grid-padding-x align-center">
+                        <div class="cell medium-8 small-auto text-center">
+                            <h2 style="text-align: center; font-size: 1.5rem">Relevance to Capstone</h2>
+                            <h2 style="text-align: center; font-size: 1rem;">This project was some of the most HTML work I have ever done. There was
+                                a heavy use of formatting tables, since that was the majority of how we were displaying crime info. Additionally, we were given different
+                                API's to use for the project. However, we had never used them before this project. This meant that we had to research them and look at documentation
+                                on our own in order to use them in our code. This was challenging as it meant that it was mostly up to us for what we used and where. I believe this
+                                is closely tied to how things are done in Capstone.
+                                <br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>
